@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: taufinrusli/multi-server:1.1
+        image: taufinrusli/multi-server
         ports:
           - containerPort: 5000
         env:
